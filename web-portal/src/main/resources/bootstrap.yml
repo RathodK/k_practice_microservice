@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: web-portal
+  cloud:
+    config:
+      uri: http://localhost:8180
+      
+#---
+
+#spring:
+ # profiles: docker
+  #cloud:
+   #  config:
+    #    uri: http://localhost:8888
